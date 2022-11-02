@@ -26,44 +26,44 @@
     <!-- Page Wrapper -->
     <div id="wrapper">
 
-      <!-- Sidebar -->
-      <ul class="navbar-nav bg-warning sidebar sidebar-dark accordion" id="accordionSidebar">
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-warning sidebar sidebar-dark accordion" id="accordionSidebar">
 
-        <!-- Sidebar - Brand -->
-        <a class="sidebar-brand " href="index.html">
-           <img src="/img/finduslogo.png" class="w-100 h-100"/>
-        </a>
-
-
-        <!-- Nav Item - Dashboard -->
-        <li class="nav-item active">
-            <a class="nav-link" href="index.html">
-
-                <span>Home</span></a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link" href="photosettings.html">
-                <!-- <i class="fas fa-fw fa-tachometer-alt"></i> -->
-                <span>Photo Settings</span>
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand " href="index.html">
+                <img src="/img/finduslogo.png" class="w-100 h-100" />
             </a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link" href="profilesettings.html">
 
-                <span>Profile Settings</span></a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link" href="contactsettings.html">
 
-                <span>Contact Settings</span></a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link" href="">
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
 
-                <span>Logout</span></a>
-        </li>
-    </ul>
-    <!-- End of Sidebar -->
+                    <span>Home</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="profilesettings.html">
+                    <!-- <i class="fas fa-fw fa-tachometer-alt"></i> -->
+                    <span>Profile Settings</span>
+                </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="bookings.html">
+
+                    <span>Bookings</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="memberlist.html">
+
+                    <span>Member-list</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="">
+
+                    <span>Logout</span></a>
+            </li>
+        </ul>
+        <!-- End of Sidebar -->
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
@@ -103,41 +103,41 @@
 
 
 
-                    <div class="row">
+                    <div class="row bg-white p-4">
 
-                        <div class="col-12">
+                        <h4 class="fw-bold text-dark">Bookings</h4>
+                        <table class="table text-center mt-3 table-hover">
+                            <thead class="text-dark">
+                                <tr>
+                                    <th scope="col">S.no</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">View Details</th>
 
-                            <!-- photo settings -->
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3 bg-white">
-                                    <h6 class="m-0 fw-bold text-dark ">Photo settings</h6>
-                                </div>
-                                <div class="card-body">
-                                    <form>
-                                        <div id="profile-container" class="mx-auto ">
-                                            <image id="profileImage" />
-                                        </div>
-                                        <p class="text-center pt-2 text-black-50">Tap to upload</p>
-                                        <input id="imageUpload" type="file"  placeholder="Photo"
-                                            required="">
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th class="align-middle">1</th>
+                                    <td class="align-middle">12.2.22</td>
+                                    <td>
+                                        <a href='Bookingdetails.html' class="btn btn-link ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-eye-fill text-black-50" viewBox="0 0 16 16">
+                                                <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z" />
+                                                <path
+                                                    d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                                            </svg>
+                                        </a>
+                                    </td>
 
-                                        <div class="pt-4 d-flex justify-content-center flex-column">
-                                            <h5 class="fw-bold text-center text-dark">
-                                                Select the pictures to be added
-                                            </h5>
-                                            <input type="file" multiple />
-                                        </div>
-
-                                        <input type="submit" class="btn bg-warning py-3 mt-3 text-dark w-100" value="Save changes" />
-                                    </form>
-
-                                </div>
-
+                                </tr>
 
 
-                            </div>
+                            </tbody>
+                        </table>
 
-                        </div>
+
+
 
                     </div>
                     <!-- /.container-fluid -->
