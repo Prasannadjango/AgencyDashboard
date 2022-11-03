@@ -430,6 +430,12 @@ input[type="checkbox"]:checked+label {
     margin-right: 5px;
 }
 
+.activecolor{
+    background-color: #F6D236;
+    
+}
+
+
 .Weekavail_container>div:nth-child(2)>span:nth-child(odd) {
     background-color: #F6D236;
     border: 0;
@@ -480,7 +486,7 @@ input[type="checkbox"]:checked+label {
     }
 
     .sidebar {
-        width: 18.5rem !important;
+        width: 26.5rem !important;
 
     }
 
