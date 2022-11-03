@@ -507,4 +507,9 @@ input[type="checkbox"]:checked+label {
     .sidebar .nav-item .nav-link span {
         font-size: 1rem !important;
     }
+    .Bookedmodel_container{
+        flex-direction: column;
+    }
+
+    
 }
