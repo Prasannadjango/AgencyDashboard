@@ -422,7 +422,9 @@ input[type="checkbox"]:checked+label {
     padding: 7px;
     font-size: 15px;
 }
-
+.sidebar .nav-item .nav-link span{
+    color:#4a4a4a;
+}
 .incall_container>div:nth-child(2)>span>svg {
     color: red;
     margin-right: 5px;
