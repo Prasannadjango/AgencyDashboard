@@ -1,18 +1,18 @@
-.Content_container>div:nth-child(1)>.card {
-    background-color: #1104AF;
+.Content_container>div>.card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    border-left: 3px solid #F6D236;
 }
-
-.Content_container>div:nth-child(2)>.card {
-    background-color: #069C0C;
-}
-
-.Content_container>div:nth-child(3)>.card {
-    background-color: #E80B0B;
-}
-
-.Content_container>div:nth-child(4)>.card {
+.Icons_container{
     background-color: #F6D236;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
 }
+
+
 
 .Referal_btn {
     color: #fff !important;
