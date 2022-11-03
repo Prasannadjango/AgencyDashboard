@@ -12,7 +12,9 @@
     place-items: center;
 }
 
-
+.topbar{
+    background-color: #F6D236;
+}
 
 .Referal_btn {
     color: #fff !important;
