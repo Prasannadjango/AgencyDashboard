@@ -477,6 +477,13 @@ input[type="checkbox"]:checked+label {
     border-radius: 40px;
     margin: 10px;
 }
+.Loginpage{
+    background-image: url(/img/loginbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
 /* Responsive codes */
 
